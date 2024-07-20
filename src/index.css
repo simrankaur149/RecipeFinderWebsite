@@ -1,13 +1,187 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;box-sizing: border-box;
+  
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2{
+  font-family: "Didact Gothic", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .search-items{
+    padding-top: 6px;
+    padding-bottom: 3px;
+  }
+  .search{
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .about{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding:3px 0px;
+  }
+  .about-1{
+    width: 80%;
+    order: 2;
+  }
+  .about-1 h2{
+    font-size: 28px;
+  }
+  .about-1 p{
+    font-size: 15px;
+  }
+  
+
+  .about-2{
+    width: 80%;
+  }
+  .about-2 img{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+  }
+
+  .contact{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:3px 0px;
+  }
+  .contact-1{
+    text-align: center;
+    width: 80%;
+    order: 2;
+  }
+  .contact-1 h2{
+    font-size: 28px;
+  }
+  .contact-1 p{
+    font-size: 15px;
+  }
+  
+
+  .contact-2{
+    width: 80%;
+  }
+  .contact-2 form textarea{
+    width: 100%;
+  }  
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  .search-items{
+    padding-top: 8px;
+    padding-bottom:5px;
+  }
+  .search{
+    text-align: center;
+    font-size: 35px;
+  }
+  .about{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding:3px 0px;
+  }
+  .about-1{
+    width: 80%;
+    order: 2;
+  }
+  .about-1 h2{
+    font-size: 28px;
+  }
+  .about-1 p{
+    font-size: 15px;
+  }
+  
+
+  .about-2{
+    width: 80%;
+  }
+  .about-2 img{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+  }
+
+  .contact{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:3px 0px;
+  }
+  .contact-1{
+    width: 80%;
+    order: 2;
+  }
+  .contact-1 h2{
+    font-size: 28px;
+  }
+  .contact-1 p{
+    font-size: 15px;
+  }
+  
+
+  .contact-2{
+    width: 80%;
+  }
+  .contact-2 form textarea{
+    width: 100%;
+  }
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  
+  }
+}
+
+/* 2XL devices (very large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  body {
+    font-size: 19px;
+  }
 }
