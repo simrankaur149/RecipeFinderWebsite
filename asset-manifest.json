@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/RecipeFinderWebsite/static/css/main.8f3ed38b.css",
-    "main.js": "/RecipeFinderWebsite/static/js/main.e6afd95e.js",
+    "main.js": "/RecipeFinderWebsite/static/js/main.ee2eb870.js",
     "static/js/453.6860d8c1.chunk.js": "/RecipeFinderWebsite/static/js/453.6860d8c1.chunk.js",
     "static/media/about.jpg": "/RecipeFinderWebsite/static/media/about.536e601332eb7f3a97ad.jpg",
     "static/media/logo-food.png": "/RecipeFinderWebsite/static/media/logo-food.fc24de225837532ef2de.png",
     "index.html": "/RecipeFinderWebsite/index.html",
     "main.8f3ed38b.css.map": "/RecipeFinderWebsite/static/css/main.8f3ed38b.css.map",
-    "main.e6afd95e.js.map": "/RecipeFinderWebsite/static/js/main.e6afd95e.js.map",
+    "main.ee2eb870.js.map": "/RecipeFinderWebsite/static/js/main.ee2eb870.js.map",
     "453.6860d8c1.chunk.js.map": "/RecipeFinderWebsite/static/js/453.6860d8c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3ed38b.css",
-    "static/js/main.e6afd95e.js"
+    "static/js/main.ee2eb870.js"
   ]
 }
